@@ -28,5 +28,13 @@ Data types in python
 12. frozen set.
 13.dict
 14.None 
-
 '''
+x =80 # integer
+y = "welcome python again in my life for learning" # string 
+z = 8.4 # float
+a = True # boolean
+print (x,y,z,a)
+print (type(x), type(y), type(z), type(a) )
+print (id(x), id(y))
+
+# these are the example for data type that is avaialble in the built in function that are avaialble in python.
