@@ -80,3 +80,45 @@ print(phanisai)
 
 # these print function can use slicing operator to print the exact word.
 # use case of this is when we use the variable to print it will print all the character but when we want to print the exact word we can use this cocenpt.
+
+'''
+in python its possible we can use positive index and negative index
+postitive index means left to right its start with 0,1,2
+negative index meand right to left it start with -1, -2
+when we want to  print particular character we can [1] when we want print from one particaly number character in the string we can use [1:10] but we should always remembe that the index start with 0 
+in negtive index start with -1 
+s[begin:end] : returns of string from begin index to end -1 index.
+'''
+varialbe = "testing to print the slicing the concept to print the word"
+phanisai = varialbe [-58:-54]
+print(phanisai)
+
+
+'''
+when we want to print the same variable assigned value in python we can just use 
+s = "phanisai"
+y = s*20
+print(y)
+it will print the same value to 20 times
+'''
+'''
+when we want to print the len of the character that are associated with variable \
+slice = "phanisai,"
+slice1 = len(slice)
+print(slice1)
+'''
+slice = "phanisai,"
+slice1 = len(slice)
+print(slice1)
+
+# type casting function or type conversion.
+# int function anyt other type value to convert to int.
+
+x = int(958.546)
+print(x)
+y = float(123884)
+print(y)
+
+
+_____________________________________________________________________
+# end of session 22/06/2025
