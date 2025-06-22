@@ -29,6 +29,7 @@ Data types in python
 13.dict
 14.None 
 '''
+'''
 x =80 # integer
 y = "welcome python again in my life for learning" # string 
 z = 8.4 # float
@@ -38,3 +39,44 @@ print (type(x), type(y), type(z), type(a) )
 print (id(x), id(y))
 
 # these are the example for data type that is avaialble in the built in function that are avaialble in python.
+'''
+a = 10
+b = 20
+result = a > b
+print (result) 
+
+'''
+Here we have one more data the that we are using Boolean here we have two condirtion that True or False
+Always the first letter should start with capital.
+
+this is one of the usefull condition if the greater than or lesser than situation, condition statment, even number or odd number these situtaion we can use.
+
+'''
+
+# 21-06-2025
+# STR data type : Any sequence of charater that are represent in double quotes or single quotes that is consider as STR data type in python.
+# if you want to use the STR in single  line  character you can use '' or "" 
+# if you want to use multi line strings the you have to ''' 
+
+a = ''' this is phanisai testing the multline strings
+      we are using to print that to valid using VS code'''
+print (a)
+
+#slice operaotor
+
+a = "phanisai to test the slicing operator concept"
+b= a[3:5]
+print(b)
+
+# Need to understand the concept called indexing 
+# indexing alway start with 0 from left to right combination.
+# the below code we can use to check the indexing as well slicing operator.
+s="phani"
+s[0]
+
+varialbe = "testing to print the slicing the concept to print the woord"
+phanisai = varialbe [0:18]
+print(phanisai)
+
+# these print function can use slicing operator to print the exact word.
+# use case of this is when we use the variable to print it will print all the character but when we want to print the exact word we can use this cocenpt.
