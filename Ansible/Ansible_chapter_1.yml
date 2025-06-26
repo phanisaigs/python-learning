@@ -1,0 +1,32 @@
+# Date 25-06-2025
+
+# practise ansible playbook writing for linux administrator taks.
+
+'''
+1. Controller node will be resposible to handle the task and use the mention modules and inventory file.
+ Modules:
+ The units of code ansible executes, Each modules has particular resposible.
+ here the list of modules.
+ --------------------------
+ File
+ dnf
+ yum
+ shell
+ command 
+ selinux 
+ hostname 
+ timezone
+ firewalld
+ reboot 
+ shutdown 
+
+ We have another set of module that are avaialble based on the task we want to perform we will be using these modules.
+
+ Task :
+ Task is set of instruction to perform to either group of host or indivisual host
+
+ playbook :
+
+ the play book will be having like a script that can perform sequence order from top to down.
+ 
+'''
