@@ -4,6 +4,7 @@
 
 '''
 1. Controller node will be resposible to handle the task and use the mention modules and inventory file.
+2 Python is require on the client nodes to perform the task.
  Modules:
  The units of code ansible executes, Each modules has particular resposible.
  here the list of modules.
@@ -28,5 +29,17 @@
  playbook :
 
  the play book will be having like a script that can perform sequence order from top to down.
- 
+'''
+
+'''
+Setup ansible nodes the environment we are usign alma linux 9.
+1 . VM need to setup of Physical machine also fine.
+2. setup the hostname of the server.
+3.Create ansible user this we will be doing on the ansible contoller and client machine to setup key based login.
+4.Add ansible user to wheel group or sudoers group to perform administrator taks.
+5.cd /etc/sudoer.d
+create file ansible
+ansible ALL:ALL NOPASSWD.
+6.install ansible along with require modules.
+
 '''
