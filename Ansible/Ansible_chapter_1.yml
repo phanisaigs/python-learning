@@ -30,6 +30,7 @@
 
  the play book will be having like a script that can perform sequence order from top to down.
 '''
+# Here the set of instruction that need follow like pre requirments.
 
 '''
 Setup ansible nodes the environment we are usign alma linux 9.
@@ -41,5 +42,4 @@ Setup ansible nodes the environment we are usign alma linux 9.
 create file ansible
 ansible ALL:ALL NOPASSWD.
 6.install ansible along with require modules.
-
 '''
